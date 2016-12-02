@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<head>
+	<head>
+		<meta charset="utf-8">
+		<title>Simulador de IPTU</title>
+	</head>
+
+	<body>
+		<form action="resultado">
+			<table bgcolor="lightblue">
+				<th bgcolor="red">SIMULADOR DE IPTU</th>
+				<tr>
+					<td>Tipo do Imóvel :
+						<input type="radio" name="tipoImovel" value="res"> Residêncial
+						<input type="radio" name="tipoImovel" value="naoRes"> Não-residêncial
+						<input type="radio" name="tipoImovel" value="terr"> Territorial
+					</td>
+				</tr>
+				<tr>
+					<td>Base de cálculo: <input type="text" name="baseCalculo"></td>
+				</tr>	
+				<tr>
+					<td>Valor do desconto: <input type="text" name="desconto"></td>
+				</tr>
+				<tr>
+					<td align="right"><input type="reset" value="Limpar"> <input type="submit" value="Calcular">
+				</tr>
+			</table>	
+		</form>	
+		
+				
+	</body>
+
+</head>
